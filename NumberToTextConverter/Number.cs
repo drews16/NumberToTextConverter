@@ -80,6 +80,7 @@ namespace NumberToTextConverter
 
             int hundreds = (whole % 1000);
             int thousands = (whole / 1000) % 1000;
+            int millions = (whole / 1000000);
 
             if (thousands > 0)
             {
